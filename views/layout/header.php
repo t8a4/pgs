@@ -2,6 +2,15 @@
 <html lang="bg">
 
 <head>
+<?php if(isset($sections)): ?>
+
+<?php foreach($sections as $section): ?>
+
+<link rel="stylesheet" href="/pgea/sections/<?= $section['type'] ?>/<?= $section['type'] ?>.css">
+
+<?php endforeach; ?>
+
+<?php endif; ?>
 
 <meta charset="UTF-8">
 <title>PGEA</title>
