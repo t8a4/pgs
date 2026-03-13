@@ -1,0 +1,72 @@
+pgea/
+
+admin/
+   posts/
+   events/
+   pages/
+   gallery/
+   login.php
+   logout.php
+   dashboard.php
+
+assets/
+   css/
+   js/
+   images/
+   icons/
+
+components/
+   hero.php
+   title_text.php
+   cards.php
+   icon_cards.php
+   image_text.php
+   cta.php
+
+config/
+   config.php
+   database.php
+
+controllers/
+   PostController.php
+   EventController.php
+   PageController.php
+   GalleryController.php
+   AuthController.php
+
+models/
+   User.php
+   Post.php
+   Event.php
+   Page.php
+   Section.php
+   Gallery.php
+
+views/
+   layout/
+      header.php
+      footer.php
+   pages/
+      home.php
+      news.php
+      news_single.php
+      events.php
+      event_single.php
+      specialties.php
+      specialty_single.php
+      gallery.php
+      contact.php
+      page.php
+   partials/
+      news_card.php
+      event_card.php
+      gallery_item.php
+
+uploads/
+   posts/
+   events/
+   gallery/
+   pages/
+
+index.php
+.htaccess
